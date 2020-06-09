@@ -54,8 +54,36 @@
       "configurable": false
     },
     "articles": {
-      "via": "author",
-      "collection": "article"
+      "collection": "article",
+      "via": "author"
+    },
+    "bio": {
+      "type": "text",
+      "maxLength": 300
+    },
+    "profile": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "course": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string",
+      "regex": "(https?)?:?(www)?instagram\\.com/[a-z].{3}"
+    },
+    "linkedin": {
+      "type": "string",
+      "regex": "(https?)?:?(www)?linkedin\\.com/[a-z].{3}"
+    },
+    "twitter": {
+      "type": "string",
+      "regex": "(https?)?:?(www)?twitter\\.com/[a-z].{3}"
     }
   }
 }
