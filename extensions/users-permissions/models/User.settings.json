@@ -54,8 +54,8 @@
       "configurable": false
     },
     "articles": {
-      "collection": "article",
-      "via": "author"
+      "via": "author",
+      "collection": "article"
     },
     "bio": {
       "type": "text",

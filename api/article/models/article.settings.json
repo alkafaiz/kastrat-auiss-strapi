@@ -30,13 +30,13 @@
       "required": true
     },
     "author": {
-      "via": "articles",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "articles"
     },
     "excerpt": {
       "type": "text",
-      "required": true,
+      "required": false,
       "maxLength": 250
     },
     "published_date": {
