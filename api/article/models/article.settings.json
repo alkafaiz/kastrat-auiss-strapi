@@ -41,7 +41,7 @@
     },
     "published_date": {
       "type": "date",
-      "required": true
+      "required": false
     }
   }
 }
