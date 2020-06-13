@@ -54,8 +54,8 @@
       "configurable": false
     },
     "articles": {
-      "via": "author",
-      "collection": "article"
+      "collection": "article",
+      "via": "author"
     },
     "bio": {
       "type": "text",
@@ -78,8 +78,7 @@
       "regex": "(https?)?:?(www)?instagram\\.com/[a-z].{3}"
     },
     "linkedin": {
-      "type": "string",
-      "regex": "(https?)?:?(www)?linkedin\\.com/[a-z].{3}"
+      "type": "string"
     },
     "twitter": {
       "type": "string",
