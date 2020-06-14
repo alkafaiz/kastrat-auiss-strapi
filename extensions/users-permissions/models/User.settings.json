@@ -74,15 +74,13 @@
       "type": "string"
     },
     "instagram": {
-      "type": "string",
-      "regex": "(https?)?:?(www)?instagram\\.com/[a-z].{3}"
+      "type": "string"
     },
     "linkedin": {
       "type": "string"
     },
     "twitter": {
-      "type": "string",
-      "regex": "(https?)?:?(www)?twitter\\.com/[a-z].{3}"
+      "type": "string"
     }
   }
 }
